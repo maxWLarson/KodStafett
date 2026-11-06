@@ -56,9 +56,15 @@
             }
         }
 
+        string vapen;
+        Console.WriteLine("Vilcket typ av vapen vill du ha:");
+        Console.Write("Skriv:");
+        vapen = Console.ReadLine();
+
         Console.WriteLine();
         Console.WriteLine("=== DIN KARAKTÄR ===");
         Console.WriteLine("Namn: " + namn);
         Console.WriteLine("Typ: " + karaktärstyp);
+        Console.WriteLine($"Typ av vapen: {vapen}");
     }
 }
